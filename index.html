@@ -4,9 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shadow HUB</title>
+    <link rel="icon" href="assets/favicon.jpg" type="image/jpeg" />
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <title>Shadow's HUB</title>
   </head>
   <body>
-    Hello world! :)
+    <button onclick="toggleSidebar(this)" class="sidebar-toggle">
+      <img src="assets/icons/sidebar-menu_0.svg" />
+    </button>
+    <header>
+      <div class="header-div">
+        <img class="header-img" src="assets/favicon.jpg" />
+        <span class="header-span">&#x2615; Developer apaixonado por café, tecnologia e jogos &#x1F3AE;</span>
+      </div>
+    </header>
+
+    <aside>
+      <nav id="sidebar-links" class="sidebar-links"><h1>Outros links</h1></nav>
+    </aside>
+
+    <main>
+      <h1>Shadow's HUB</h1>
+      <div class="main-div">
+        <ul id="main-ul" class="main-ul"></ul>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-div">
+        <p>Feito por @swshadows</p>
+        <nav id="nav-links" class="nav-links"></nav>
+        <p>Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
