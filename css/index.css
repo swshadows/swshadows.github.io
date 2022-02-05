@@ -45,6 +45,7 @@ footer {
   justify-content: space-around;
 }
 .footer-div {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -361,7 +362,7 @@ main h1:hover {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   .li-content {
     width: 25rem;
   }
@@ -371,9 +372,12 @@ main h1:hover {
   aside {
     width: 60%;
   }
+  .nav-a {
+    margin: 0 0.5rem;
+  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   * {
     font: 9px "JetBrains Mono Regular", sans-serif;
   }
