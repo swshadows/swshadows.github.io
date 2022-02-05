@@ -14,11 +14,7 @@
     "icon": "assets/icons/itchdotio.svg",
     "tooltip": "Itch"
   },
-  "portfolio": {
-    "url": "https://swshadows.github.io/portfolio/",
-    "icon": "assets/icons/portfolio.svg",
-    "tooltip": "Portfolio"
-  },
+
   "steam": {
     "url": "https://steamcommunity.com/id/swshadowss/",
     "icon": "assets/icons/steam.svg",
@@ -53,6 +49,11 @@
     "url": "https://www.linkedin.com/in/joelson-lima/",
     "icon": "assets/icons/linkedin.svg",
     "tooltip": "LinkedIn"
+  },
+  "portfolio": {
+    "url": "https://swshadows.github.io/portfolio/",
+    "icon": "assets/icons/portfolio.svg",
+    "tooltip": "Portfolio"
   },
   "telegram": {
     "url": "https://t.me/swshadows",
