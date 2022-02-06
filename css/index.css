@@ -422,8 +422,8 @@ main h1:hover {
     margin: 3.5rem 3rem;
   }
 }
-@media screen and (max-height: 700px) {
-  footer {
-    position: static;
+@media screen and (max-height: 800px) and (max-width: 700px) {
+  main {
+    padding-bottom: 20rem;
   }
 }
