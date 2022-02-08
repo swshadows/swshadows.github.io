@@ -1,0 +1,63 @@
+@import url("../assets/fonts/JetBrainsMono-Regular.ttf");
+:root {
+  --black: #111;
+  --white: #eee;
+  --whiteflash: #999;
+  --whitesmoke: #444;
+  --bg: url("../assets/bg.svg");
+  --bg-transp: rgba(17, 17, 17, 0.5);
+  --bg-transp-less: rgba(17, 17, 17, 0.8);
+  --aside-pos: -100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 25px "JetBrains Mono Regular", sans-serif;
+}
+body {
+  background: var(--bg) center repeat;
+  color: var(--white);
+}
+
+@keyframes rgb-border {
+  0% {
+    border: 3px solid #ff0000;
+  }
+  11% {
+    border: 3px solid #ff8000;
+  }
+  22% {
+    border: 3px solid #ffff00;
+  }
+  33% {
+    border: 3px solid #00ff80;
+  }
+  44% {
+    border: 3px solid #00ffff;
+  }
+  55% {
+    border: 3px solid #0080ff;
+  }
+  66% {
+    border: 3px solid #0000ff;
+  }
+  77% {
+    border: 3px solid #8000ff;
+  }
+  88% {
+    border: 3px solid #ff00ff;
+  }
+  100% {
+    border: 3px solid #ff0000;
+  }
+}
+@keyframes link {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.7);
+  }
+}

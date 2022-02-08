@@ -1,0 +1,84 @@
+main {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  flex-direction: column;
+  margin: 2.7rem auto;
+  background-color: rgba(10, 10, 10, 0.4);
+  backdrop-filter: blur(6px);
+  border: 1px solid var(--white);
+  border-radius: 5px;
+}
+.main-title {
+  display: inline-block;
+  margin: 1rem;
+  transition: 300ms all;
+}
+.main-title:hover {
+  transform: scale(2);
+}
+nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+}
+.nav-a {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  text-decoration: none;
+  border: 4px solid transparent;
+  border-radius: 10px;
+  margin: 0 0.3rem;
+  padding: 0.4rem;
+  font-size: 15px;
+  transition: 300ms all;
+}
+.nav-a:hover {
+  transform: scale(1.2);
+  border: 1px solid var(--white);
+  background-color: var(--black);
+  animation: 7s rgb-border infinite;
+}
+.nav-icon {
+  width: 1rem;
+}
+.nav-tooltip,
+.nav-tooltip-extra {
+  color: var(--white);
+  font-size: 0.7rem;
+}
+.nav-tooltip {
+  margin-top: 0.5rem;
+  padding: 5px;
+}
+.nav-tooltip-extra {
+  text-align: center;
+  width: 15rem;
+  display: none;
+  position: absolute;
+  background-color: var(--black);
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  bottom: 4.3rem;
+  padding: 1rem 2rem;
+  transition: 300ms all;
+}
+.back-a {
+  animation: 1s link infinite;
+}
+@media screen and (max-width: 1200px) {
+  main {
+    margin: 11rem auto;
+  }
+}
+@media screen and (max-width: 740px) {
+  * {
+    font-size: 9px;
+  }
+  .nav-a {
+    width: 2rem;
+    margin: 0 1.5rem;
+  }
+}

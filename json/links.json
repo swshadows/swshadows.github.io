@@ -1,0 +1,128 @@
+{
+  "github": {
+    "type": "dev",
+    "url": "https://github.com/swshadows",
+    "icon": "assets/icons/github.svg",
+    "tooltip": "Github",
+    "description": "Onde posto meus códigos"
+  },
+  "codepen": {
+    "type": "dev",
+    "url": "https://codepen.io/swshadows",
+    "icon": "assets/icons/codepen.svg",
+    "tooltip": "Codepen",
+    "description": "Onde posto projetos pequenos"
+  },
+  "list_projects": {
+    "type": "dev",
+    "url": "https://thoracic-nyala-418.notion.site/ProjectList-53cfa4c7753c479cb5bc15fe55693637",
+    "icon": "assets/icons/projectlist.svg",
+    "tooltip": "ProjectList",
+    "description": "Lista de todos os meus projetos publicados e planejados"
+  },
+  "portfolio": {
+    "type": "dev",
+    "url": "https://swshadows.github.io/portfolio/",
+    "icon": "assets/icons/portfolio.svg",
+    "tooltip": "Portfolio",
+    "description": "Meu portfólio profissional"
+  },
+  "itch": {
+    "type": "dev",
+    "url": "https://swshadows.itch.io",
+    "icon": "assets/icons/itchdotio.svg",
+    "tooltip": "Itch",
+    "description": "Onde posto meus jogos publicados"
+  },
+  "list_study": {
+    "type": "dev",
+    "url": "https://thoracic-nyala-418.notion.site/Lista-de-Estudos-1acba06fe09c48b19cd1123b30380601",
+    "icon": "assets/icons/studylist.svg",
+    "tooltip": "StudyList",
+    "description": "Minha tabela para organizar os estudos"
+  },
+  "list_setup": {
+    "type": "game",
+    "url": "https://thoracic-nyala-418.notion.site/Meu-Setup-63d984694eea433a846d475642f8272c",
+    "icon": "assets/icons/setup.svg",
+    "tooltip": "SetupList",
+    "description": "Minha lista de componentes do meu setup"
+  },
+  "steam": {
+    "type": "game",
+    "url": "https://steamcommunity.com/id/swshadowss/",
+    "icon": "assets/icons/steam.svg",
+    "tooltip": "Steam",
+    "description": "Minha Steam e plataforma primária de jogos"
+  },
+  "discord": {
+    "type": "game",
+    "url": "https://discord.com/users/265323318037577728",
+    "icon": "assets/icons/discord.svg",
+    "tooltip": "Discord",
+    "description": "Meu Discord: swshadows#3964"
+  },
+  "list_games": {
+    "type": "game",
+    "url": "https://thoracic-nyala-418.notion.site/Lista-de-Jogos-61b6b034fc1346af8c6df6c981f79d35",
+    "icon": "assets/icons/gamelist.svg",
+    "tooltip": "GameList",
+    "description": "Minha lista de jogos concluídos, pendentes e etc."
+  },
+  "myanimelist": {
+    "type": "media",
+    "url": "https://myanimelist.net/profile/swshadows",
+    "icon": "assets/icons/myanimelist.svg",
+    "tooltip": "MyAnimeList",
+    "description": "Minha lista de animes concluídos, pendentes e etc."
+  },
+  "movielist": {
+    "type": "media",
+    "url": "https://thoracic-nyala-418.notion.site/Lista-de-Filmes-a95da0828ca3437f82aab7784a841a57",
+    "icon": "assets/icons/movielist.svg",
+    "tooltip": "MovieList",
+    "description": "Minha tabela para filmes concluídos, pendentes e etc."
+  },
+  "spotify": {
+    "type": "media",
+    "url": "https://open.spotify.com/user/h52evdr856rqgcc9du2surx98",
+    "icon": "assets/icons/spotify.svg",
+    "tooltip": "Spotify",
+    "description": "Meu perfil no Spotify"
+  },
+  "album_warframe": {
+    "type": "media",
+    "url": "https://imgur.com/a/rkEH1NM",
+    "icon": "assets/icons/albums.svg",
+    "tooltip": "Album - Warframe",
+    "description": "Meu album de screencaps cinemáticas de Warframe"
+  },
+  "twitter": {
+    "type": "social",
+    "url": "https://twitter.com/swshadows",
+    "icon": "assets/icons/twitter.svg",
+    "tooltip": "Twitter",
+    "description": "Meu Twitter :)"
+  },
+  "reddit": {
+    "type": "social",
+    "url": "https://www.reddit.com/user/swshadows/",
+    "icon": "assets/icons/reddit.svg",
+    "tooltip": "Reddit",
+    "description": "Meu perfil no Reddit"
+  },
+  "linkedin": {
+    "type": "social",
+    "url": "https://www.linkedin.com/in/joelson-lima/",
+    "icon": "assets/icons/linkedin.svg",
+    "tooltip": "LinkedIn",
+    "description": "Meu perfil profissional no LinkedIn"
+  },
+  "telegram": {
+    "type": "social",
+    "url": "https://t.me/swshadows",
+    "icon": "assets/icons/telegram.svg",
+    "tooltip": "Telegram",
+    "description": "Meu Telegram pra contato pessoal"
+  }
+}

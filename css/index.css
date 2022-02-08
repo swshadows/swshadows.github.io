@@ -1,24 +1,3 @@
-@import url("../assets/fonts/JetBrainsMono-Regular.ttf");
-:root {
-  --black: #111;
-  --white: #eee;
-  --whiteflash: #999;
-  --whitesmoke: #444;
-  --bg: url("../assets/bg.svg");
-  --bg-transp: rgba(17, 17, 17, 0.5);
-  --bg-transp-less: rgba(17, 17, 17, 0.8);
-  --aside-pos: -100%;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font: 25px "JetBrains Mono Regular", sans-serif;
-}
-body {
-  background: var(--bg) center repeat;
-  color: var(--white);
-}
 header,
 footer {
   z-index: 1;
@@ -60,8 +39,7 @@ footer {
 }
 .header-img {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 100px;
   transition: 300ms all;
   animation: 7s rgb-border infinite;
 }
@@ -88,10 +66,7 @@ footer {
   height: inherit;
   opacity: 0.5;
   transition: 200ms all;
-}
-.nav-icon:hover {
-  opacity: 1;
-  transform: scale(1.7);
+  animation: 1s link infinite;
 }
 .nav-tooltip {
   visibility: hidden;
@@ -104,78 +79,6 @@ footer {
   color: var(--white);
   font-size: 14px;
 }
-aside {
-  position: absolute;
-  top: 0;
-  background-color: var(--bg-transp-less);
-  border-right: 2px solid var(--whitesmoke);
-  border-bottom: 2px solid var(--whitesmoke);
-  border-radius: 0 0 5% 0;
-  left: var(--aside-pos);
-  z-index: 2;
-  width: 30%;
-}
-.sidebar-toggle {
-  cursor: pointer;
-  border-radius: 10px;
-  width: 2rem;
-  height: 2rem;
-  padding: 0.4rem;
-  background-color: transparent;
-  color: var(--white);
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 3;
-}
-.sidebar-toggle img {
-  width: 100%;
-  height: 100%;
-}
-.sidebar-links {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  margin: 1.4rem 3rem;
-}
-.sidebar-links a {
-  display: flex;
-  align-items: center;
-  margin: 0.3rem 0;
-  padding: 0.5rem;
-  text-decoration: none;
-  color: var(--white);
-  width: 80%;
-  height: 2rem;
-  border: 1px solid var(--white);
-  border-radius: 5px;
-  transition: 300ms all;
-}
-.sidebar-links a:hover {
-  width: 100%;
-  height: 3rem;
-  background-color: var(--black);
-  animation: 7s rgb infinite;
-}
-.sidebar-a-icon,
-.sidebar-a-text {
-  font-size: 0.6rem;
-  white-space: nowrap;
-}
-.sidebar-a-text-micro {
-  font-size: 0.4rem;
-}
-.sidebar-a-tooltip {
-  visibility: hidden;
-  margin-left: 1rem;
-  font-size: 10px;
-}
-.sidebar-desc {
-  margin: 0.7rem 0;
-  font-size: 0.7rem;
-}
-
 main {
   display: block;
   margin: 6rem auto 3rem;
@@ -240,20 +143,6 @@ main h1:hover {
 .tooltip-hide {
   animation: 300ms fadeout 1;
 }
-.aside-show {
-  animation: 300ms asideshow 1;
-}
-.aside-hide {
-  animation: 300ms asidehide 1;
-}
-.sidetip-show {
-  visibility: visible;
-  color: var(--white);
-  animation: 500ms fadein 1;
-}
-.sidetip-hide {
-  animation: 100ms fadeout 1;
-}
 .flashing {
   animation: 800ms flashing infinite;
 }
@@ -271,22 +160,6 @@ main h1:hover {
   }
   100% {
     opacity: 0;
-  }
-}
-@keyframes asideshow {
-  0% {
-    left: var(--aside-pos);
-  }
-  100% {
-    left: 0;
-  }
-}
-@keyframes asidehide {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: var(--aside-pos);
   }
 }
 @keyframes flashing {
@@ -329,39 +202,6 @@ main h1:hover {
     color: #ff0000;
   }
 }
-@keyframes rgb-border {
-  0% {
-    border: 3px solid #ff0000;
-  }
-  11% {
-    border: 3px solid #ff8000;
-  }
-  22% {
-    border: 3px solid #ffff00;
-  }
-  33% {
-    border: 3px solid #00ff80;
-  }
-  44% {
-    border: 3px solid #00ffff;
-  }
-  55% {
-    border: 3px solid #0080ff;
-  }
-  66% {
-    border: 3px solid #0000ff;
-  }
-  77% {
-    border: 3px solid #8000ff;
-  }
-  88% {
-    border: 3px solid #ff00ff;
-  }
-  100% {
-    border: 3px solid #ff0000;
-  }
-}
-
 @media screen and (max-width: 1300px) {
   .li-content {
     width: 25rem;
@@ -406,20 +246,11 @@ main h1:hover {
     height: 3rem;
     margin: 2.2rem;
   }
+  .nav-tooltip {
+    visibility: visible;
+  }
   .footer-div p {
     font-size: 9px;
-  }
-  aside {
-    width: 70%;
-  }
-  .sidebar-toggle {
-    width: 2.6rem;
-    height: 2.6rem;
-    top: 0;
-    left: 0;
-  }
-  .sidebar-links {
-    margin: 3.5rem 3rem;
   }
 }
 @media screen and (max-height: 800px) and (max-width: 700px) {

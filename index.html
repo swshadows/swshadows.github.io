@@ -7,33 +7,27 @@
     <link rel="icon" href="assets/favicon.jpg" type="image/jpeg" />
     <!-- Metatags de compartilhamento -->
     <meta name="title" content="Shadow's HUB" />
-    <meta name="description" content="HUB central de links e miscelânea pública de @swshadows" />
+    <meta name="description" content="HUB central de @swshadows" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Shadow's HUB" />
-    <meta property="og:description" content="HUB central de links e miscelânea pública de @swshadows" />
+    <meta property="og:description" content="HUB central de @swshadows" />
     <meta property="og:image" content="https://raw.githubusercontent.com/swshadows/swshadows.github.io/main/assets/favicon.jpg" />
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:title" content="Shadow's HUB" />
-    <meta property="twitter:description" content="HUB central de links e miscelânea pública de @swshadows" />
+    <meta property="twitter:description" content="HUB central de @swshadows" />
     <meta property="twitter:image" content="https://raw.githubusercontent.com/swshadows/swshadows.github.io/main/assets/favicon.jpg" />
     <!-- Fim de metatags de compartilhamento -->
+    <link rel="stylesheet" href="css/template.css" type="text/css" />
     <link rel="stylesheet" href="css/index.css" type="text/css" />
     <title>Shadow's HUB</title>
   </head>
   <body>
-    <button onclick="toggleSidebar(this)" class="sidebar-toggle">
-      <img src="assets/icons/sidebar-menu_0.svg" />
-    </button>
     <header>
       <div class="header-div">
         <img class="header-img" src="assets/favicon.jpg" />
         <span class="header-span">&#x2615; Developer apaixonado por café, tecnologia e jogos &#x1F3AE;</span>
       </div>
     </header>
-
-    <aside>
-      <nav id="sidebar-links" class="sidebar-links"><h1>Outros links</h1></nav>
-    </aside>
 
     <main>
       <h1>Shadow's HUB</h1>
@@ -43,7 +37,12 @@
     </main>
 
     <footer>
-      <nav id="nav-links" class="nav-links"></nav>
+      <nav id="nav-links" class="nav-links">
+        <a onmouseenter="showTooltip(this)" onmouseleave="hideTooltip(this)" class="nav-a" href="links.html">
+          <img class="nav-icon" src="assets/icons/all_links.svg" />
+          <span class="nav-tooltip">Todos os meus links </span>
+        </a>
+      </nav>
       <div class="footer-div">
         <p>Feito por @swshadows</p>
         <p>Todos os direitos reservados</p>
