@@ -39,14 +39,14 @@
     "url": "https://thoracic-nyala-418.notion.site/Lista-de-Estudos-1acba06fe09c48b19cd1123b30380601",
     "icon": "assets/icons/studylist.svg",
     "tooltip": "Estudos",
-    "description": "Minha tabela para organizar os estudos"
+    "description": "Minha tabela para organizar os estudos e relacionados"
   },
   "list_setup": {
     "type": "game",
     "url": "https://thoracic-nyala-418.notion.site/Meu-Setup-63d984694eea433a846d475642f8272c",
     "icon": "assets/icons/setup.svg",
     "tooltip": "Setup",
-    "description": "Minha lista de componentes do meu setup"
+    "description": "Minha lista de componentes do meu setup e etc."
   },
   "steam": {
     "type": "game",
@@ -95,7 +95,7 @@
     "url": "https://thoracic-nyala-418.notion.site/Albuns-de-Screenshots-8673504fb2584ef182c1c7e53532bab4",
     "icon": "assets/icons/albums.svg",
     "tooltip": "Albuns",
-    "description": "Meus albuns de screenshots em jogos"
+    "description": "Meus albuns de screenshots, edições e etc."
   },
   "twitter": {
     "type": "social",
