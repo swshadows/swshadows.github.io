@@ -74,7 +74,7 @@
     "url": "https://myanimelist.net/profile/swshadows",
     "icon": "assets/icons/myanimelist.svg",
     "tooltip": "MyAnimeList",
-    "description": "Minha lista de animes assistidos, pendentes e etc."
+    "description": "Minha lista de animes e mangás lidos/assistidos, pendentes e etc."
   },
   "list_movie": {
     "type": "media",
