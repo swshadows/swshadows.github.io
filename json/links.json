@@ -4,48 +4,48 @@
     "url": "https://github.com/swshadows",
     "icon": "assets/icons/github.svg",
     "tooltip": "Github",
-    "description": "Onde posto meus códigos"
+    "description": "Plataforma geral de códigos"
   },
   "codepen": {
     "type": "dev",
     "url": "https://codepen.io/swshadows",
     "icon": "assets/icons/codepen.svg",
     "tooltip": "Codepen",
-    "description": "Onde posto projetos pequenos"
+    "description": "Plataforma onde posto projetos pequenos"
   },
   "list_projects": {
     "type": "dev",
     "url": "https://thoracic-nyala-418.notion.site/ProjectList-53cfa4c7753c479cb5bc15fe55693637",
     "icon": "assets/icons/projectlist.svg",
-    "tooltip": "ProjectList",
-    "description": "Lista de todos os meus projetos publicados e planejados"
+    "tooltip": "Projetos",
+    "description": "Lista de todos os meus projetos publicados, planejados, ideias e etc."
   },
   "portfolio": {
     "type": "dev",
     "url": "https://swshadows.github.io/portfolio/",
     "icon": "assets/icons/portfolio.svg",
     "tooltip": "Portfolio",
-    "description": "Meu portfólio profissional"
+    "description": "Meu portfólio e perfil profissional"
   },
   "itch": {
     "type": "dev",
     "url": "https://swshadows.itch.io",
     "icon": "assets/icons/itchdotio.svg",
     "tooltip": "Itch",
-    "description": "Onde posto meus jogos publicados"
+    "description": "Plataforma onde posto meus jogos publicados"
   },
   "list_study": {
     "type": "dev",
     "url": "https://thoracic-nyala-418.notion.site/Lista-de-Estudos-1acba06fe09c48b19cd1123b30380601",
     "icon": "assets/icons/studylist.svg",
-    "tooltip": "StudyList",
+    "tooltip": "Estudos",
     "description": "Minha tabela para organizar os estudos"
   },
   "list_setup": {
     "type": "game",
     "url": "https://thoracic-nyala-418.notion.site/Meu-Setup-63d984694eea433a846d475642f8272c",
     "icon": "assets/icons/setup.svg",
-    "tooltip": "SetupList",
+    "tooltip": "Setup",
     "description": "Minha lista de componentes do meu setup"
   },
   "steam": {
@@ -60,13 +60,13 @@
     "url": "https://discord.com/users/265323318037577728",
     "icon": "assets/icons/discord.svg",
     "tooltip": "Discord",
-    "description": "Meu Discord: swshadows#3964"
+    "description": "Meu Discord, plataforma de comunicação geral"
   },
   "list_games": {
     "type": "game",
     "url": "https://thoracic-nyala-418.notion.site/Lista-de-Jogos-61b6b034fc1346af8c6df6c981f79d35",
     "icon": "assets/icons/gamelist.svg",
-    "tooltip": "GameList",
+    "tooltip": "Jogos",
     "description": "Minha lista de jogos concluídos, pendentes e etc."
   },
   "myanimelist": {
@@ -74,14 +74,14 @@
     "url": "https://myanimelist.net/profile/swshadows",
     "icon": "assets/icons/myanimelist.svg",
     "tooltip": "MyAnimeList",
-    "description": "Minha lista de animes concluídos, pendentes e etc."
+    "description": "Minha lista de animes assistidos, pendentes e etc."
   },
-  "movielist": {
+  "list_movie": {
     "type": "media",
     "url": "https://thoracic-nyala-418.notion.site/Lista-de-Filmes-a95da0828ca3437f82aab7784a841a57",
     "icon": "assets/icons/movielist.svg",
-    "tooltip": "MovieList",
-    "description": "Minha tabela para filmes concluídos, pendentes e etc."
+    "tooltip": "Filmes",
+    "description": "Minha tabela para filmes assistidos, pendentes e etc."
   },
   "spotify": {
     "type": "media",
@@ -90,12 +90,12 @@
     "tooltip": "Spotify",
     "description": "Meu perfil no Spotify"
   },
-  "album_warframe": {
+  "list_album": {
     "type": "media",
-    "url": "https://imgur.com/a/rkEH1NM",
+    "url": "https://thoracic-nyala-418.notion.site/Albuns-de-Screenshots-8673504fb2584ef182c1c7e53532bab4",
     "icon": "assets/icons/albums.svg",
-    "tooltip": "Album - Warframe",
-    "description": "Meu album de screencaps cinemáticas de Warframe"
+    "tooltip": "Albuns",
+    "description": "Meus albuns de screenshots em jogos"
   },
   "twitter": {
     "type": "social",
