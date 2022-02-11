@@ -3,13 +3,12 @@ let sideStatus = 0;
 const sideTimer = 10;
 const mainul = document.getElementById("main-ul");
 
-fetch("./json/text.json")
+fetch("./json/index.json")
   .then((DATA_JSON) => DATA_JSON.json())
   .then((DATA_JSON) => {
     for (i in DATA_JSON) {
       mainul.innerHTML += `<li class="li-content">
-      <span class="li-num">${i}</span>
-      ${DATA_JSON[i].text}
+      <span class="li-num">${i}</span> ${DATA_JSON[i].text}
       </li`;
     }
     const lis = document.getElementsByClassName("li-content");
@@ -18,7 +17,7 @@ fetch("./json/text.json")
       lis[counter].classList.add("flashing");
       counter++;
       if (lis[counter] == undefined) clearInterval(interval);
-    }, 100);
+    }, 50);
   });
 
 function showTooltip(arg) {

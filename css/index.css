@@ -34,8 +34,16 @@ footer {
   margin: 0 1rem;
   font-size: 15px;
 }
+.header-img-nameholder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .nav-links {
   justify-content: center;
+}
+.header-name {
+  margin-left: 1rem;
 }
 .header-img {
   border-radius: 50%;
@@ -43,11 +51,11 @@ footer {
   transition: 300ms all;
   animation: 7s rgb-border infinite;
 }
-.header-span {
+.header-desc {
   transition: 300ms all;
 }
 .header-img:hover,
-.header-span:hover {
+.header-desc:hover {
   border-radius: 5px;
   cursor: pointer;
   transform: scale(1.1);
@@ -102,14 +110,18 @@ main h1:hover {
   text-shadow: 4px 4px var(--whitesmoke);
 }
 .main-div {
-  display: flex;
-  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
 }
 .main-ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .li-content u {
   font-size: inherit;
+  font-weight: 700;
 }
 .li-content {
   border: 1px solid var(--white);
@@ -117,14 +129,14 @@ main h1:hover {
   background-color: var(--bg-transp);
   margin-top: 0.3rem;
   padding: 0.3rem;
-  width: 50rem;
-  font-size: 15px;
+  width: 100%;
+  font-size: 13px;
   transition: 300ms all;
 }
 .li-content:hover {
   cursor: default;
-  font-size: 17px;
-  animation: 7s rgb infinite, 1s flashing infinite;
+  transform: scale(1.1);
+  animation: 14s rgb infinite, 1s flashing infinite;
 }
 .li-num {
   background-color: var(--white);
@@ -144,7 +156,7 @@ main h1:hover {
   animation: 300ms fadeout 1;
 }
 .flashing {
-  animation: 800ms flashing infinite;
+  animation: 1s flashing infinite;
 }
 @keyframes fadein {
   0% {
@@ -163,8 +175,8 @@ main h1:hover {
   }
 }
 @keyframes flashing {
-  50% {
-    box-shadow: 0px 0px 10px 2px var(--whiteflash);
+  0% {
+    box-shadow: 0px 0px 10px 5px var(--whiteflash);
   }
   100% {
     box-shadow: none;
@@ -203,11 +215,9 @@ main h1:hover {
   }
 }
 @media screen and (max-width: 1300px) {
-  .li-content {
-    width: 25rem;
-  }
-  .header-span {
-    width: 15rem;
+  .header-desc {
+    width: 13rem;
+    font-size: 0.8rem;
   }
   aside {
     width: 60%;
@@ -232,11 +242,7 @@ main h1:hover {
   }
   .li-content {
     padding: 10px;
-    width: 35rem;
     font-size: 9px;
-  }
-  .li-content:hover {
-    font-size: 10px;
   }
   .nav-links {
     flex-wrap: wrap;

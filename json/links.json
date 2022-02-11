@@ -88,7 +88,7 @@
     "url": "https://open.spotify.com/user/h52evdr856rqgcc9du2surx98",
     "icon": "assets/icons/spotify.svg",
     "tooltip": "Spotify",
-    "description": "Meu perfil no Spotify"
+    "description": "Meu perfil e playlists no Spotify"
   },
   "list_album": {
     "type": "media",
@@ -103,13 +103,6 @@
     "icon": "assets/icons/twitter.svg",
     "tooltip": "Twitter",
     "description": "Meu Twitter :)"
-  },
-  "reddit": {
-    "type": "social",
-    "url": "https://www.reddit.com/user/swshadows/",
-    "icon": "assets/icons/reddit.svg",
-    "tooltip": "Reddit",
-    "description": "Meu perfil no Reddit"
   },
   "linkedin": {
     "type": "social",
