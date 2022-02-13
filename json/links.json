@@ -22,7 +22,7 @@
   },
   "portfolio": {
     "type": "dev",
-    "url": "https://swshadows.github.io/portfolio/",
+    "url": "https://swshadows.github.io/devfolio/",
     "icon": "assets/icons/portfolio.svg",
     "tooltip": "Portfolio",
     "description": "Meu portfólio e perfil profissional"
