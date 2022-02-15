@@ -2,7 +2,8 @@ const navlinks = document.getElementById("nav-links");
 let sideStatus = 0;
 const sideTimer = 10;
 const mainul = document.getElementById("main-ul");
-let bg = 0;
+let bg = Math.round(Math.random() * 5);
+changeBG();
 
 fetch("./json/index.json")
   .then((DATA_JSON) => DATA_JSON.json())

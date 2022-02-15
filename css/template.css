@@ -10,6 +10,11 @@
   --aside-pos: -100%;
   --rgb-border-size: 3px;
 }
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+}
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +22,7 @@
   font: 25px "JetBrains Mono Regular", sans-serif;
 }
 body {
-  background: var(--bg) center no-repeat;
+  background: var(--bg) center repeat;
   background-size: cover;
   color: var(--white);
 }
