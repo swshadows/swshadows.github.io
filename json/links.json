@@ -13,13 +13,6 @@
     "tooltip": "Codepen",
     "description": "Plataforma onde posto projetos pequenos"
   },
-  "list_projects": {
-    "type": "dev",
-    "url": "https://thoracic-nyala-418.notion.site/ProjectList-53cfa4c7753c479cb5bc15fe55693637",
-    "icon": "assets/icons/projectlist.svg",
-    "tooltip": "Projetos",
-    "description": "Lista de todos os meus projetos publicados, planejados, ideias e etc."
-  },
   "portfolio": {
     "type": "dev",
     "url": "https://swshadows.github.io/devfolio/",
@@ -34,20 +27,6 @@
     "tooltip": "Itch",
     "description": "Plataforma onde posto meus jogos publicados"
   },
-  "list_study": {
-    "type": "dev",
-    "url": "https://thoracic-nyala-418.notion.site/Lista-de-Estudos-1acba06fe09c48b19cd1123b30380601",
-    "icon": "assets/icons/studylist.svg",
-    "tooltip": "Estudos",
-    "description": "Minha tabela para organizar os estudos e relacionados"
-  },
-  "list_setup": {
-    "type": "game",
-    "url": "https://thoracic-nyala-418.notion.site/Meu-Setup-63d984694eea433a846d475642f8272c",
-    "icon": "assets/icons/setup.svg",
-    "tooltip": "Setup",
-    "description": "Minha lista de componentes do meu setup e etc."
-  },
   "steam": {
     "type": "game",
     "url": "https://steamcommunity.com/id/swshadowss/",
@@ -56,18 +35,11 @@
     "description": "Minha Steam e plataforma primária de jogos"
   },
   "discord": {
-    "type": "game",
+    "type": "social",
     "url": "https://discord.com/users/265323318037577728",
     "icon": "assets/icons/discord.svg",
     "tooltip": "Discord",
     "description": "Meu Discord, plataforma de comunicação geral"
-  },
-  "list_games": {
-    "type": "game",
-    "url": "https://thoracic-nyala-418.notion.site/Lista-de-Jogos-61b6b034fc1346af8c6df6c981f79d35",
-    "icon": "assets/icons/gamelist.svg",
-    "tooltip": "Jogos",
-    "description": "Minha lista de jogos concluídos, pendentes e etc."
   },
   "myanimelist": {
     "type": "media",
@@ -76,26 +48,12 @@
     "tooltip": "MyAnimeList",
     "description": "Minha lista de animes e mangás lidos/assistidos, pendentes e etc."
   },
-  "list_movie": {
-    "type": "media",
-    "url": "https://thoracic-nyala-418.notion.site/Lista-de-Filmes-a95da0828ca3437f82aab7784a841a57",
-    "icon": "assets/icons/movielist.svg",
-    "tooltip": "Filmes",
-    "description": "Minha tabela para filmes assistidos, pendentes e etc."
-  },
   "spotify": {
     "type": "media",
     "url": "https://open.spotify.com/user/h52evdr856rqgcc9du2surx98",
     "icon": "assets/icons/spotify.svg",
     "tooltip": "Spotify",
     "description": "Meu perfil e playlists no Spotify"
-  },
-  "list_album": {
-    "type": "media",
-    "url": "https://thoracic-nyala-418.notion.site/Albuns-de-Screenshots-8673504fb2584ef182c1c7e53532bab4",
-    "icon": "assets/icons/albums.svg",
-    "tooltip": "Albuns",
-    "description": "Meus albuns de screenshots, edições e etc."
   },
   "twitter": {
     "type": "social",
@@ -117,5 +75,12 @@
     "icon": "assets/icons/telegram.svg",
     "tooltip": "Telegram",
     "description": "Meu Telegram pra contato pessoal"
+  },
+  "public_notion": {
+    "type": "others",
+    "url": "https://thoracic-nyala-418.notion.site/Docs-P-blicos-d6f4195fcee24c9b9c6eda1e463c867a",
+    "icon": "assets/icons/public_notion.svg",
+    "tooltip": "Docs Públicos",
+    "description": "Documentos pessoais que disponibilizo no Notion, como lista de jogos, filmes e etc."
   }
 }

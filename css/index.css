@@ -44,6 +44,21 @@ footer {
 }
 .header-name {
   margin-left: 1rem;
+  width: 8rem;
+  background-image: linear-gradient(#9342f5, #bd87ff);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+  border-radius: 5px;
+  padding: 2px;
+  font-weight: 600;
+  transition: 100ms all;
+  animation: 7s rgb infinite;
+}
+.header-name:hover {
+  background-size: 100% 100%;
+  background-position-y: left;
+  animation: none;
 }
 .header-img {
   border-radius: 50%;
@@ -59,6 +74,7 @@ footer {
   border-radius: 5px;
   cursor: pointer;
   transform: scale(1.1);
+  animation: none;
 }
 .nav-a {
   width: 1.3rem;
@@ -100,7 +116,6 @@ main h1 {
   font-size: 50px;
   width: 55%;
   transition: 300ms all;
-  animation: 7s rgb infinite;
 }
 main h1:hover {
   cursor: default;
@@ -136,7 +151,7 @@ main h1:hover {
 .li-content:hover {
   cursor: default;
   transform: scale(1.1);
-  animation: 14s rgb infinite, 1s flashing infinite;
+  background-color: var(--black);
 }
 .li-num {
   background-color: var(--white);
@@ -155,9 +170,6 @@ main h1:hover {
 .tooltip-hide {
   animation: 300ms fadeout 1;
 }
-.flashing {
-  animation: 1s flashing infinite;
-}
 @keyframes fadein {
   0% {
     opacity: 0;
@@ -172,14 +184,6 @@ main h1:hover {
   }
   100% {
     opacity: 0;
-  }
-}
-@keyframes flashing {
-  0% {
-    box-shadow: 0px 0px 10px 5px var(--whiteflash);
-  }
-  100% {
-    box-shadow: none;
   }
 }
 @keyframes rgb {

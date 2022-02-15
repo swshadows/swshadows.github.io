@@ -1,5 +1,8 @@
 let data;
 
+document.documentElement.style.setProperty("--rgb-border-size", "1px");
+document.documentElement.style.setProperty("--bg", `url("../assets/bg_1.svg")`);
+
 fetch("./json/links.json")
   .then((DATA_JSON) => DATA_JSON.json())
   .then((DATA_JSON) => {
@@ -16,8 +19,10 @@ function structure(obj) {
       navlinks = document.getElementById("links-game");
     } else if (obj[i].type == "media") {
       navlinks = document.getElementById("links-media");
-    } else {
+    } else if (obj[i].type == "social") {
       navlinks = document.getElementById("links-social");
+    } else {
+      navlinks = document.getElementById("links-others");
     }
 
     navlinks.innerHTML += `<a onmouseenter="mouseIn(this)" onmouseleave="mouseOut(this)" class="nav-a" target="_blank" href="${obj[i].url}">

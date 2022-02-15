@@ -2,6 +2,7 @@ const navlinks = document.getElementById("nav-links");
 let sideStatus = 0;
 const sideTimer = 10;
 const mainul = document.getElementById("main-ul");
+let bg = 0;
 
 fetch("./json/index.json")
   .then((DATA_JSON) => DATA_JSON.json())
@@ -67,3 +68,17 @@ function leaveSideTip(arg) {
     arg.children[2].classList.toggle("sidetip-show");
   }, 80);
 }
+
+function changeBG() {
+  bg++;
+  if (bg >= 6) bg = 0;
+  document.documentElement.style.setProperty("--bg", `url("../assets/bg_${bg}.svg")`);
+}
+
+const headerName = document.getElementsByClassName("header-name")[0];
+headerName.addEventListener("mouseenter", (e) => {
+  e.target.innerHTML = `Ou também Joe`;
+});
+headerName.addEventListener("mouseleave", (e) => {
+  e.target.innerHTML = `@swshadows`;
+});

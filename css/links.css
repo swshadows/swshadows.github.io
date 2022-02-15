@@ -1,6 +1,9 @@
 * {
   font-size: 1.2rem;
 }
+body {
+  background-repeat: repeat;
+}
 main {
   display: flex;
   width: 80%;
@@ -19,6 +22,9 @@ main {
 }
 .sub-title {
   font-size: 1.1rem;
+  text-decoration: underline;
+  font-weight: bolder;
+  margin: 0.5rem 0;
 }
 nav {
   text-align: center;
@@ -31,7 +37,7 @@ nav {
   flex-direction: column;
   place-items: center;
   text-decoration: none;
-  border: 3px solid transparent;
+  border: 1px solid transparent;
   border-radius: 10px;
   margin: 0 0.3rem;
   padding: 0.4rem;
@@ -73,9 +79,5 @@ nav {
 @media screen and (max-width: 740px) {
   * {
     font-size: 9px;
-  }
-  .nav-a {
-    width: 2rem;
-    margin: 0 1.5rem;
   }
 }
