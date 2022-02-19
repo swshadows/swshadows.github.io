@@ -6,7 +6,7 @@ body {
 }
 main {
   display: flex;
-  width: 80%;
+  width: 70%;
   align-items: center;
   flex-direction: column;
   margin: 2.7rem auto;
@@ -28,9 +28,15 @@ main {
 }
 nav {
   text-align: center;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  /* justify-content: center;
+  flex-wrap: wrap; */
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 0.2rem 0;
+}
+.nav-links-footer {
+  display: flex;
+  justify-content: center;
 }
 .nav-a {
   display: flex;
@@ -39,13 +45,13 @@ nav {
   text-decoration: none;
   border: 1px solid transparent;
   border-radius: 10px;
-  margin: 0 0.3rem;
+  margin: 1rem 0.3rem;
   padding: 0.4rem;
   font-size: 15px;
   transition: 300ms all;
 }
 .nav-a:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   background-color: var(--black);
   animation: 7s rgb-border infinite;
 }
@@ -69,7 +75,7 @@ nav {
   background-color: var(--black);
   border: 1px solid var(--white);
   border-radius: 5px;
-  bottom: 4.3rem;
+  bottom: 5.3rem;
   padding: 1rem 2rem;
   transition: 300ms all;
 }

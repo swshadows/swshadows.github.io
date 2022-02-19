@@ -1,86 +1,74 @@
 {
   "github": {
-    "type": "dev",
     "url": "https://github.com/swshadows",
     "icon": "assets/icons/github.svg",
     "tooltip": "Github",
     "description": "Plataforma geral de códigos"
   },
   "codepen": {
-    "type": "dev",
     "url": "https://codepen.io/swshadows",
     "icon": "assets/icons/codepen.svg",
     "tooltip": "Codepen",
     "description": "Plataforma onde posto projetos pequenos"
   },
   "portfolio": {
-    "type": "dev",
     "url": "https://swshadows.github.io/devfolio/",
     "icon": "assets/icons/portfolio.svg",
     "tooltip": "Portfolio",
     "description": "Meu portfólio e perfil profissional"
   },
   "itch": {
-    "type": "dev",
     "url": "https://swshadows.itch.io",
     "icon": "assets/icons/itchdotio.svg",
     "tooltip": "Itch",
     "description": "Plataforma onde posto meus jogos publicados"
   },
   "steam": {
-    "type": "game",
     "url": "https://steamcommunity.com/id/swshadowss/",
     "icon": "assets/icons/steam.svg",
     "tooltip": "Steam",
     "description": "Minha Steam e plataforma primária de jogos"
   },
   "discord": {
-    "type": "social",
     "url": "https://discord.com/users/265323318037577728",
     "icon": "assets/icons/discord.svg",
     "tooltip": "Discord",
     "description": "Meu Discord, plataforma de comunicação geral"
   },
   "myanimelist": {
-    "type": "media",
     "url": "https://myanimelist.net/profile/swshadows",
     "icon": "assets/icons/myanimelist.svg",
     "tooltip": "MyAnimeList",
     "description": "Minha lista de animes e mangás lidos/assistidos, pendentes e etc."
   },
   "spotify": {
-    "type": "media",
     "url": "https://open.spotify.com/user/h52evdr856rqgcc9du2surx98",
     "icon": "assets/icons/spotify.svg",
     "tooltip": "Spotify",
     "description": "Meu perfil e playlists no Spotify"
   },
   "twitter": {
-    "type": "social",
     "url": "https://twitter.com/swshadows",
     "icon": "assets/icons/twitter.svg",
     "tooltip": "Twitter",
     "description": "Meu Twitter :)"
   },
   "linkedin": {
-    "type": "social",
     "url": "https://www.linkedin.com/in/joelson-lima/",
     "icon": "assets/icons/linkedin.svg",
     "tooltip": "LinkedIn",
     "description": "Meu perfil profissional no LinkedIn"
   },
   "telegram": {
-    "type": "social",
     "url": "https://t.me/swshadows",
     "icon": "assets/icons/telegram.svg",
     "tooltip": "Telegram",
     "description": "Meu Telegram pra contato pessoal"
   },
-  "public_notion": {
-    "type": "others",
-    "url": "https://thoracic-nyala-418.notion.site/Docs-P-blicos-d6f4195fcee24c9b9c6eda1e463c867a",
-    "icon": "assets/icons/public_notion.svg",
-    "tooltip": "Docs Públicos",
-    "description": "Documentos pessoais que disponibilizo no Notion, como lista de jogos, filmes e etc."
+  "shadow_notion": {
+    "url": "https://thoracic-nyala-418.notion.site/Docs-Shadow-a3cc907a1eaa410781f2ef35a608e11a",
+    "icon": "assets/icons/notion_shadow.svg",
+    "tooltip": "Docs Shadow",
+    "description": "Meu índice de páginas no Notion"
   }
 }

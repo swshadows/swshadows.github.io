@@ -11,20 +11,8 @@ fetch("./json/links.json")
   });
 
 function structure(obj) {
-  let navlinks;
+  let navlinks = document.getElementById("nav-links");
   for (i in obj) {
-    if (obj[i].type == "dev") {
-      navlinks = document.getElementById("links-dev");
-    } else if (obj[i].type == "game") {
-      navlinks = document.getElementById("links-game");
-    } else if (obj[i].type == "media") {
-      navlinks = document.getElementById("links-media");
-    } else if (obj[i].type == "social") {
-      navlinks = document.getElementById("links-social");
-    } else {
-      navlinks = document.getElementById("links-others");
-    }
-
     navlinks.innerHTML += `<a onmouseenter="mouseIn(this)" onmouseleave="mouseOut(this)" class="nav-a" target="_blank" href="${obj[i].url}">
     <img class="nav-icon" src="${obj[i].icon}">
     <span class="nav-tooltip">${obj[i].tooltip}</span>
