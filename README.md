@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="dist/assets/favicon.svg">
+<img src="docs/assets/favicon.svg">
 
 Meu HUB, site principal e portfólio
 
