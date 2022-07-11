@@ -1,0 +1,25 @@
+@keyframes rgb {
+  $rgb_spectrum: (#ff8000, #ffff00, #00ff80, #00ffff, #0080ff, #0000ff, #8000ff, #ff00ff, #ff0000);
+  0%,
+  100% {
+    color: nth($rgb_spectrum, 9);
+  }
+  @for $i from 1 through 9 {
+    #{$i * 11%} {
+      color: nth($rgb_spectrum, $i);
+    }
+  }
+}
+
+@keyframes rgb_box_shadow {
+  $rgb_spectrum: (#ff8000, #ffff00, #00ff80, #00ffff, #0080ff, #0000ff, #8000ff, #ff00ff, #ff0000);
+  0%,
+  100% {
+    box-shadow: nth($rgb_spectrum, 9) 0 0 9px 8px;
+  }
+  @for $i from 1 through 9 {
+    #{$i * 11%} {
+      box-shadow: nth($rgb_spectrum, $i) 0 0 9px 8px;
+    }
+  }
+}

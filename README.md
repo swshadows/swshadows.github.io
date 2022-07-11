@@ -2,6 +2,8 @@
 
 <div align="center">
 
-    :warning: SOB CONSTRUÇÃO :warning:
+<img src="dist/assets/favicon.svg">
+
+Meu HUB, site principal e portfólio
 
 </div>

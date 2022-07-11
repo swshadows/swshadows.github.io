@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Windows",
+    "icon": "windows",
+    "icon_color": "0078D6"
+  },
+  {
+    "name": "Linux",
+    "icon": "linux",
+    "icon_color": "FCC624"
+  },
+  {
+    "name": "Figma",
+    "icon": "figma",
+    "icon_color": "F24E1E"
+  },
+  {
+    "name": "Visual Studio Code",
+    "icon": "visualstudiocode",
+    "icon_color": "007ACC"
+  },
+  {
+    "name": "Git",
+    "icon": "git",
+    "icon_color": "F05032"
+  },
+  {
+    "tag": "break"
+  },
+  {
+    "name": "HTML",
+    "icon": "html5",
+    "icon_color": "E34F26"
+  },
+  {
+    "name": "CSS",
+    "icon": "css3",
+    "icon_color": "1572B6"
+  },
+  {
+    "name": "TailwindCSS",
+    "icon": "tailwindcss",
+    "icon_color": "06B6D4"
+  },
+  {
+    "name": "Javascript",
+    "icon": "javascript",
+    "icon_color": "F7DF1E"
+  },
+  {
+    "name": "Typescript",
+    "icon": "typescript",
+    "icon_color": "3178C6"
+  },
+  {
+    "name": "Node.js",
+    "icon": "node.js",
+    "icon_color": "339933"
+  },
+  {
+    "name": "PHP",
+    "icon": "php",
+    "icon_color": "777BB4"
+  },
+  {
+    "name": "MongoDB",
+    "icon": "mongodb",
+    "icon_color": "47A248"
+  },
+  {
+    "name": "MariaDB",
+    "icon": "mariadb",
+    "icon_color": "003545"
+  },
+  {
+    "tag": "break"
+  },
+  {
+    "name": "Shell",
+    "icon": "gnubash",
+    "icon_color": "4EAA25"
+  },
+  {
+    "name": "LaTeX",
+    "icon": "latex",
+    "icon_color": "008080"
+  },
+  {
+    "name": "Markdown",
+    "icon": "markdown",
+    "icon_color": "ffffff"
+  },
+  {
+    "name": "Notion",
+    "icon": "notion",
+    "icon_color": "ffffff"
+  }
+]
