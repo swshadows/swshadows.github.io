@@ -1,2 +1,2 @@
-sass --watch ./src/scss:./dist/css &
-live-server ./dist
+sass --watch ./src/scss:./docs/css &
+live-server ./docs
