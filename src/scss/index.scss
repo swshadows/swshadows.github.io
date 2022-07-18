@@ -63,11 +63,12 @@ body {
   background-color: $shadow_purple;
   text-decoration: none;
   padding: 0.4rem 2rem;
-  border: 2px solid $shadow_cyan;
   border-radius: 5px;
   transition: $transition_properties;
+  border: 2px solid transparent;
   &:hover {
-    background-color: darken($shadow_purple, 20%);
+    border: 2px solid $shadow_cyan;
+    background-color: darken($shadow_purple, 5%);
   }
   @include mobile() {
     font-size: 10px;
@@ -76,23 +77,18 @@ body {
 }
 
 main {
-  display: block;
-  width: 90%;
-  margin: 15rem auto;
+  margin: 9rem auto;
 }
 
-.about-me,
-.techstack,
-.projects {
+.about-me {
   margin: 0 auto;
   width: 90%;
   border-radius: 25px;
   border: 1px solid $shadow_cyan;
   background-color: $void_black;
-  margin-top: 10rem;
   display: flex;
   color: #fff;
-  padding: 5rem 4rem;
+  padding: 6rem 4rem;
   gap: 5rem;
   box-shadow: $shadow_cyan 0 0 0 0;
   transition: $transition_properties;
@@ -125,8 +121,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 10px;
-  width: 90%;
+  gap: 40px;
+  width: 75%;
   position: relative;
 
   span {
@@ -159,101 +155,16 @@ main {
     flex-wrap: wrap;
     gap: 1rem;
     width: fit-content;
-  }
-}
-
-.techstack {
-  flex-direction: column;
-  gap: 3rem;
-  h1 {
-    text-align: center;
-  }
-  .techs_wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-  }
-  .tech_descriptor {
-    position: absolute;
-    top: -16px;
-    font-size: 18px;
-  }
-}
-
-@for $i from 1 through 4 {
-  .techstack__shields-#{$i} {
-    display: flex;
-    width: 100%;
-    position: relative;
-    justify-content: center;
-    gap: 1rem;
-    padding: 1rem;
-    flex-wrap: wrap;
-    img {
-      height: 30px;
-      @include mobile() {
-        height: 20px;
-      }
-    }
-  }
-}
-
-.projects {
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10rem;
-}
-
-.projects__grid {
-  width: 100%;
-  display: grid;
-  grid-template: 1fr / 1fr 1fr 1fr;
-  gap: 3rem;
-  @include mobile() {
-    grid-template: 1fr / 1fr 1fr;
-  }
-  .card {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    gap: 1rem;
-    padding-bottom: 1rem;
-    background-color: $void_black;
-    border: 1px solid $shadow_cyan;
-    box-shadow: $box-shadow-purple;
-
-    :not(.project-banner, .image-wrapper, .link-icon) {
-      margin: 10px 1rem;
-    }
-    .project-banner {
-      width: 100%;
-      height: 250px;
-      border: 1px solid transparent;
-      transition: $transition_properties;
+    a:first-child {
+      border-radius: 50%;
+      animation: 4s linear rgb_box_shadow infinite;
       &:hover {
-        border: 1px solid $shadow_cyan;
-        transform: scale(1.7);
+        animation: none;
       }
-      @include mobile() {
-        display: none;
-      }
-    }
-    .link-icon {
-      width: 30px;
-      @include mobile() {
-        width: 20px;
-      }
-      transition: $transition_properties;
-    }
-    &.rgb_card {
-      animation: rgb_box_shadow 3s infinite linear;
     }
   }
 }
+
 .page-footer {
   position: fixed;
   bottom: 0;
